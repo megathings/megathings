@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mega Things - full-service dev team in London, UK</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                font-family: 'Open Sans';
+                font-weight: 300;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+            aside, main, navigation {
+                display: block;
+            }
+            aside {
+                margin-top: 68px;
+                width: 200px;
+                text-align: center;
+            }
+            aside #logo {
+                display: block;
+                width: 122px;
+                margin: 0 auto;
+            }
+            aside #logo img {
+                display: block;
+            }
+            navigation {
+                margin-top: 68px;
+                width: 180px;
+                min-width: 120px;
+            }
+            navigation li {
+                list-style: none;
+                padding: 14px 0;
+                background-color: #31ACD4;
+                border: 1px solid white;
+                text-align: center;
+                color: white;
+                border-radius: 7px;
+                margin-right: 20px;
+            }
+            navigation li a {
+                color: inherit;
+                text-decoration: none;
+            }
+            main ul {
+                list-style-position: inside;
+            }
+            main {
+                line-height: 1.6em;
+                max-width: 750px;
+            }
+            main h1 {
+                font-size: 25px;
+                margin-bottom: 0.6em;
+            }
+            main h2 {
+                font-size: 21px;
+                margin-bottom: 0.6em;
+            }
+            main ul {
+                margin-bottom: 1em;
+            }
+            main p {
+                margin-bottom: 1em;
+            }
+            main em {
+                font-weight: normal;
+                font-style: normal;
+            }
+            .devs-list {
+                display: flex;
+                flex-direction: row;
+            }
+            .devs-list div {
+                text-align: center;
+                margin-right: 20px;
+                width: 120px;
+            }
+
+            @media (max-width: 600px) {
+                aside {
+                    margin-right: 20px;
+                }
+                navigation {
+                    display: none;
+                }
+            }
+        </style>
+
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,300italic' rel='stylesheet' type='text/css' />
+        <meta name="referrer" content="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+            <aside>
+                <a href="/" id="logo"><img src="/images/mt.png" height="220" alt="Mega Things" /></a>
+            </aside>
+
+            <navigation>
+                <ul>
+                    <li><a href="#nav-services">Services</a></li>
+                    <li><a href="#nav-portfolio">Portfolio</a></li>
+                    <li><a href="#nav-contact">Contact</a></li>
+                    <li><a href="#nav-who">Who</a></li>
+                </ul>
+            </navigation>
+
+            <main>
+                <h1>Hello! We are a full-service dev team in London, UK, and able to work remotely or in-house.</h1>
+
+                <h2 id="nav-services">Services</h2>
+
+                <p>We are a team of two developers, with expertise in:</p>
+
+                <ul>
+                    <li>Development of scalable APIs.</li>
+                    <li>Full-stack website development.</li>
+                    <li>PHP, Symfony, NodeJS and Scala on the backend.</li>
+                    <li>Javascript, AngularJS, React and ES6 on the frontend.</li>
+                    <li>Dev-ops with Puppet and Linux.</li>
+                    <li>Utility creation in Scala, PHP and Node.</li>
+                    <li>Automated testing and TDD in PHP, Javascript and Scala.</li>
+                    <li>Generating useful statistics and information using SQL databases, NoSQL databases like MongoDB, and various tools.</li>
+                </ul>
+
+                <p>
+                    We work with top clients
+                    <em>across London, Buckinghamshire, and in remote teams,</em> to deliver
+                    high-quality code and products, using a tech stack either of their choosing or
+                    a tech stack recommended by us.
+                </p>
+
+                <h2 id="nav-portfolio">Portfolio</h2>
+
+                <p>
+                    We have worked with global clients like Google, Intuit, Bray Leino and TD,
+                    and dozens of smaller clients like City Pantry, Goodwood, Russell Hobbs,
+                    and Funding Circle, developing everything from massively scalable APIs,
+                    to scalable and automated Linux infrastructures, to mobile apps, to internal
+                    dashboards full of useful data.
+                </p>
+
+                <p>
+                    As well as developing for clients, our developers love open source, and have
+                    made contributions to a huge range of projects, including AngularJS, Angular Charts,
+                    Nunjucks, and Node Webshot. They have developed many Symfony bundles, and created
+                    a TDD tool for MongoDB migrations, <a href="http://mongrate.com/">Mongrate</a>.
+                </p>
+
+                <p>
+                    For a more complete list of clients, projects, products and open source work,
+                    see the individual websites and GitHub pages of our developers, linked to
+                    at the bottom of this page.
+                </p>
+
+                <h2 id="nav-contact">Contact</h2>
+
+                <p>
+                    To enquire about our services, <a href="mailto:amy@amyboyd.co.uk">email Amy</a>
+                    and we'll get back to you as soon as possible.
+                </p>
+
+                <h2>Who are the Mega Things developers?</h2>
+
+                <div id="nav-who" class="devs-list">
+                    <div>
+                        <a href="http://amyboyd.co.uk/">Amy</a>, tech lead<br />
+                        <img src="images/amy.jpg" height="120" /><br />
+                        See her <a href="https://github.com/amyboyd">GitHub</a> profile for loads
+                        of open source code.
+                    </div>
+
+                    <div>
+                        <a href="http://lucygilbert.co.uk/">Lucy</a>, developer<br />
+                        <img src="images/lucy.jpg" height="120" /><br />
+                        See her <a href="https://github.com/lucygilbert">GitHub</a> profile for more
+                        open source code.
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
